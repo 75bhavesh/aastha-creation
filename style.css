@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Services</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111111;
+            color: white;
+        }
+
+        header {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 150px;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: gold;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            color: gold;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 22px;
+            max-width: 800px;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: gold;
+            color: black;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #e6c200;
+        }
+
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .card {
+            background-color: #222;
+            border: 2px solid gold;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .card h2 {
+            color: gold;
+        }
+
+        .service-section {
+            padding: 50px 40px;
+        }
+
+        .service-section h2 {
+            color: gold;
+            margin-bottom: 20px;
+        }
+
+        .service-section ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: black;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Company Logo" class="logo">
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Categories</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Premium Luxury Services</h1>
+        <p>
+            Experience world-class professional solutions designed to elevate your business,
+            lifestyle, and success with unmatched quality and excellence.
+        </p>
+
+        <a href="#services" class="btn">Explore Services</a>
+    </section>
+
+    <section class="categories">
+        <div class="card">
+            <h2>Business Consulting</h2>
+            <p>Strategic guidance to help your business grow and achieve its goals.</p>
+        </div>
+
+        <div class="card">
+            <h2>Digital Marketing</h2>
+            <p>Professional marketing solutions to increase visibility and revenue.</p>
+        </div>
+
+        <div class="card">
+            <h2>Web Development</h2>
+            <p>Modern, responsive, and high-performance websites for your brand.</p>
+        </div>
+
+        <div class="card">
+            <h2>Brand Management</h2>
+            <p>Create a powerful identity that stands out in the marketplace.</p>
+        </div>
+    </section>
+
+    <section id="services" class="service-section">
+        <h2>Our Services</h2>
+
+        <ul>
+            <li>Professional Business Consultation</li>
+            <li>Website Design & Development</li>
+            <li>SEO & Search Engine Marketing</li>
+            <li>Social Media Management</li>
+            <li>Brand Strategy & Positioning</li>
+            <li>Corporate Training & Support</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Luxury Services. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
